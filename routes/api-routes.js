@@ -4,7 +4,9 @@ module.exports = function(app) {
 
   app.get("/", function(req, res) {
 
-    db.burgers.findAll({}).then(function(data) {
+    db.burgers.findAll({
+       order: ['burger_name']
+    }).then(function(data) {
         var hbsObject = {
       burgers: data
     };
