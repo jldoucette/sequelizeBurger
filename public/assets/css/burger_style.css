@@ -1,0 +1,23 @@
+body {
+    background-color: darkgoldenrod;
+}
+.burgerheading {
+    text-align:center;
+}
+
+ul {
+    list-style: none;
+    
+}
+li {
+    font-size:120%;
+    padding-bottom: 5px;
+}
+#uneatenform {
+    float:right;
+}
+
+#addburger {
+    text-align:center;
+}
+
